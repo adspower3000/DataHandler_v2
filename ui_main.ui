@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1317</width>
+    <height>812</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Finlandica-Medium</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font-family: Finlandica-Medium;
+background-color: rgb(31, 28, 53)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <widget class="QFrame" name="MainFrame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgba(255, 255, 255,30);
+border: 1px solid rgba(255, 255, 255, 40);
+border-radius: 7px</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <property name="spacing">
+        <number>9</number>
+       </property>
+       <property name="leftMargin">
+        <number>12</number>
+       </property>
+       <property name="topMargin">
+        <number>12</number>
+       </property>
+       <property name="rightMargin">
+        <number>12</number>
+       </property>
+       <property name="bottomMargin">
+        <number>30</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="entering_the_date">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>12</number>
+         </property>
+         <property name="rightMargin">
+          <number>12</number>
+         </property>
+         <property name="bottomMargin">
+          <number>12</number>
+         </property>
+         <item>
+          <layout class="QVBoxLayout" name="entering_the_date_diapazon">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>12</number>
+           </property>
+           <property name="topMargin">
+            <number>12</number>
+           </property>
+           <property name="rightMargin">
+            <number>12</number>
+           </property>
+           <property name="bottomMargin">
+            <number>12</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="by_date">
+             <property name="spacing">
+              <number>6</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_7">
+               <property name="font">
+                <font>
+                 <family>Finlandica-Medium</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: white;
+background-color: none;
+border: none
+ </string>
+               </property>
+               <property name="text">
+                <string>С</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDateEdit" name="bytimepicker">
+               <property name="maximumSize">
+                <size>
+                 <width>170</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Finlandica-Medium</family>
+                 <pointsize>20</pointsize>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: white;
+padding-left: 8px;
+</string>
+               </property>
+               <property name="buttonSymbols">
+                <enum>QAbstractSpinBox::NoButtons</enum>
+               </property>
+               <property name="dateTime">
+                <datetime>
+                 <hour>15</hour>
+                 <minute>0</minute>
+                 <second>0</second>
+                 <year>2022</year>
+                 <month>12</month>
+                 <day>31</day>
+                </datetime>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="until_date" stretch="0,0">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_8">
+               <property name="maximumSize">
+                <size>
+                 <width>60</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Finlandica-Medium</family>
+                 <pointsize>20</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: white;
+background-color: none;
+border: none</string>
+               </property>
+               <property name="text">
+                <string>По</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDateEdit" name="untiltimepicker">
+               <property name="maximumSize">
+                <size>
+                 <width>170</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Finlandica-Medium</family>
+                 <pointsize>20</pointsize>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: white;
+padding-left: 8px</string>
+               </property>
+               <property name="buttonSymbols">
+                <enum>QAbstractSpinBox::NoButtons</enum>
+               </property>
+               <property name="dateTime">
+                <datetime>
+                 <hour>15</hour>
+                 <minute>0</minute>
+                 <second>0</second>
+                 <year>2022</year>
+                 <month>12</month>
+                 <day>31</day>
+                </datetime>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="enterbtn">
+           <property name="font">
+            <font>
+             <family>Finlandica-Medium</family>
+             <pointsize>20</pointsize>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255, 255, 255, 30);
+border: 1px solid rgba(255, 255, 255, 40);
+border-radius: 7px;
+widht: 100px;
+height: 50px;
+}
+
+QPushButton:hover {
+background-color: rgba(255, 255, 255, 40);
+}
+
+QPushButton:pressed {
+background-color: rgba(255, 255, 255,70);
+}
+</string>
+           </property>
+           <property name="text">
+            <string>Ввод</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="data">
+         <item>
+          <layout class="QVBoxLayout" name="data_name">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>12</number>
+           </property>
+           <property name="topMargin">
+            <number>12</number>
+           </property>
+           <property name="rightMargin">
+            <number>12</number>
+           </property>
+           <property name="bottomMargin">
+            <number>12</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="Sum_N_2">
+             <property name="font">
+              <font>
+               <family>Finlandica-Medium</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: white;
+background-color: none;
+border: none</string>
+             </property>
+             <property name="text">
+              <string>Выработка за цикл</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="JobHour_2">
+             <property name="font">
+              <font>
+               <family>Finlandica-Medium</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: white;
+background-color: none;
+border: none</string>
+             </property>
+             <property name="text">
+              <string>Рабочие часы</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="deltaT_2">
+             <property name="font">
+              <font>
+               <family>Finlandica-Medium</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: white;
+background-color: none;
+border: none</string>
+             </property>
+             <property name="text">
+              <string>deltaT</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="data_digital">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>12</number>
+           </property>
+           <property name="topMargin">
+            <number>12</number>
+           </property>
+           <property name="rightMargin">
+            <number>12</number>
+           </property>
+           <property name="bottomMargin">
+            <number>12</number>
+           </property>
+           <item>
+            <widget class="QLabel" name="Sum_N">
+             <property name="font">
+              <font>
+               <family>Finlandica-Medium</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: white;
+background-color: none;
+border: none</string>
+             </property>
+             <property name="text">
+              <string>3423432</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="JobHour">
+             <property name="font">
+              <font>
+               <family>Finlandica-Medium</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: white;
+background-color: none;
+border: none</string>
+             </property>
+             <property name="text">
+              <string>19</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="deltaT">
+             <property name="font">
+              <font>
+               <family>Finlandica-Medium</family>
+               <pointsize>20</pointsize>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: white;
+background-color: none;
+border: none</string>
+             </property>
+             <property name="text">
+              <string>41.1</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+    <item row="3" column="0" colspan="3">
+     <widget class="QTableView" name="tableView">
+      <property name="styleSheet">
+       <string notr="true">QTableView{
+background-color: rgba(255, 255, 255, 30);
+border: 1px solid rgba(255, 255, 255, 40);
+border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px;
+}
+
+QTableView::section {
+background-color: rgba(53, 53, 53);
+color: white;
+border: none;
+height: 50px;
+font-size: 14pt;
+}
+
+QTableView::item{
+border-style: none;
+border-bottom: rgba(255, 255, 255, 50);
+}
+
+QTableItem::item:selected {
+border: none;
+color: rgba(255, 255, 255);
+background-color: rgba(255, 255, 255, 30);
+}</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
